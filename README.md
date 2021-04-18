@@ -10,7 +10,7 @@ For this coding challenge, you will be creating 16 divs on your page. When click
 
 3. Follow the directions in the `index.html` file
 
-4. 4. You will at some point need to utilize the following resources:
+4. You will at some point need to utilize the following resources:
 
 [Math Floor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
 
