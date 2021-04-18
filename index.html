@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Useful event target example</title>
+    <style>
+      div {
+        background-color: red;
+        height: 100px;
+        width: 25%;
+        float: left;
+      }
+    </style>
+  </head>
+  <body>
+    <script>
+      /*
+    Create 16 divs on the page using a for loop
+      1. Use a for loop
+      2. Create a variable const myDiv and set it equal and to document.createElement passing it the appropriate 
+       value to create a div
+      3. Use appendChild and pass it your variable from above attaching it to document.body
+    */
+
+      /*
+    Create a function thats going to return a random number
+      1. Create a function named random that takes a number as an argument and returns a random number. You will need to utilize the following Math object methods:
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor
+      https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random
+    */
+
+      /*
+    Create a function thats going to utilze your function from above to create random rgb values and then return
+    those value
+      1. Create a function named bgChange 
+      2. Create a variable const rndCol and set it equal to an rgb string that utilizes your random function from above and it passes it the appropriate rgb value
+      HINT: rgb strings take 3 values so you will utilize your function 3 times, the max rgb value is 255, and your should utitlize string concatonation 
+    */
+
+      /*
+    Select all the divs on the page
+      1. Utitlize document.querySelectorAll to select all the divs on the page
+    */
+
+      /*
+    Using a for loop iterate through all of the divs and add an onclick function to change background
+      1. Utilize a for loop that runs for the .length of the divs
+      2. Inside of the function scope for your for loop, add an on click to each div
+      3. Set the div equal to a function that accepts the event object (e)
+      5. Using the event object target the e.target.style.backgroundColor and set it equal to bgChange
+       Read about event target here https://developer.mozilla.org/en-US/docs/Web/API/EventTarget
+    */
+    </script>
+  </body>
+</html>

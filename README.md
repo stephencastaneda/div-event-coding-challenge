@@ -1,2 +1,17 @@
-# div-event-coding-challenge
-Created with CodeSandbox
+# Divs Coding Challenge
+
+For this coding challenge, you will be creating 16 divs on your page. When clicked, each div will change to a random color.
+
+## Setup
+
+1. Clone this repo on Code Sandbox.
+
+2. Follow the directions in the `index.html` file
+
+3. You will at some need to utilize the following resources:
+
+[Math Floor](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/floor)
+
+[Math Random](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/random)
+
+[Event Target](https://developer.mozilla.org/en-US/docs/Web/API/EventTarget)
